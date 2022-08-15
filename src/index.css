@@ -51,3 +51,9 @@ footer a {
 header a:hover, footer a:hover {
   color: rgb(	129,	208,	147);
 }
+
+.project-container {
+  background-color: rgba(	129,	208,	147, 0.4);
+  margin: 0 4em;
+  border-radius:50px;
+}

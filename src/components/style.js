@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 
+
 /////////////// STYLE FOR FOOTER /////////////////
 export const FooterStyle = styled.footer`
   @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Irish+Grover&family=Libre+Barcode+39+Text&family=Monoton&display=swap');
@@ -121,7 +122,7 @@ export const HomeStyle = styled.div`
     /* margin-top: 0; */
     width: 60%;
   }
-  
+
   .portraitWrapper{
     width:40%;
   }
@@ -158,11 +159,13 @@ export const SkillWrapStyle = styled.div`
 /////////////// STYLE FOR PROJECT PAGE /////////////////
 export const ProjectStyle = styled.div`
 color: white;
-margin: auto 5em;
+margin: auto 3em;
+padding: 2em 2em;
 
 img{
   width: 100%;
   border-radius: 20px;
+  margin-top: 1.5em;
 }
 
 .img-wrapper{
@@ -172,13 +175,14 @@ img{
 .project-wrapper{
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  gap: 3em;
 }
 
 .content-wrapper{
   width: 50%;
   font-size: 24px;
   font-family: 'Irish Grover', cursive;
+
 }
 `
 

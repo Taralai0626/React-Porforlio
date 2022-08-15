@@ -11,7 +11,7 @@ const Projects = () =>{
         })
     })
     return (
-        <div>
+        <div className="project-container">
             {projects.map(projects=> (
             <ProjectStyle>
                 <h1>{projects.title}</h1>
