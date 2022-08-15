@@ -47,3 +47,7 @@ footer a {
   color: white;
   text-decoration: none;
 }
+
+header a:hover, footer a:hover {
+  color: rgb(	129,	208,	147);
+}

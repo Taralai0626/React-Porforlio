@@ -33,10 +33,6 @@ export const FooterLinkStyle = styled.div`
     color: white;
     text-decoration: none;
   }
-
-  &:hover a{
-    color: rgb(	129,	208,	147);
-  }
 `;
 
 /////////////// STYLE FOR NAVBAR /////////////////
@@ -61,16 +57,12 @@ export const NavHeaderStyle = styled.header`
     font-size: 30px;
   }
 
-  &:hover a{
-    color: rgb(	129,	208,	147);
-  }
-
   a {
     color: white;
     text-decoration: none;
   }
 
- /*  #check,label #btn,
+/*  #check,label #btn,
 label #cancel {
   color: #05E5EA;
   font-size: 30px;
@@ -99,7 +91,6 @@ label #cancel {
 }*/
 `;
 
-/////////////// STYLE FOR HOME PAGE /////////////////
 export const NavList = styled.li`
   display:inline-flex;
   justify-content: space-between;
@@ -109,8 +100,7 @@ export const NavList = styled.li`
   font-size: 18pt;
 `;
 
-
-/////
+/////////////// STYLE FOR HOME PAGE /////////////////
 export const HomeStyle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&display=swap');
   display: flex;
@@ -131,6 +121,7 @@ export const HomeStyle = styled.div`
     /* margin-top: 0; */
     width: 60%;
   }
+  
   .portraitWrapper{
     width:40%;
   }
