@@ -17,29 +17,24 @@ export const FooterStyle = styled.footer`
 `;
 
 export const FooterLinkStyle = styled.div`
-  
   display: inline-flex;
- 
-  /* justify-items: flex-end; */
-  
-  /* justify-content: space-between;  */
 
   img {
     vertical-align: middle;
   }
+
   li{
     list-style-type: none;
-    
-    /* display: inline-flex; */
-  
-    /* justify-items: flex-end; */
-   /*  align-items: center; */
     justify-content: space-between;
-    
   }
+
   a {
     color: white;
     text-decoration: none;
+  }
+
+  &:hover a{
+    color: rgb(	129,	208,	147);
   }
 `;
 
@@ -97,6 +92,12 @@ label #cancel {
   } 
 }*/
 `;
+
+export const LinkDecorator = styled.a`
+  &:hover a{
+    color: rgb(	129,	208,	147);
+  }
+`
 
 export const NavList = styled.li`
   display:inline-flex;
