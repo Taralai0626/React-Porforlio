@@ -16,3 +16,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+footer{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  width: 90%;
+  margin-left: 4em;
+  color: white;
+  font-size: 20px;
+  font-family: 'Irish Grover', cursive; 
+  margin-top: auto;
+}
+
+.footerList{
+  display: flex;
+  flex-direction: row;
+}
+
+footer li{
+  list-style-type: none;
+}
+footer img{
+  vertical-align: middle;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

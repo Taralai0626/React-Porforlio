@@ -15,7 +15,6 @@ export const FooterStyle = styled.footer`
   font-size: 20px;
   font-family: 'Irish Grover', cursive; 
   margin-top: auto;
-  
 `;
 
 export const FooterLinkStyle = styled.div`

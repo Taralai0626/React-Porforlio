@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, {useState, useEffect} from 'react';
-import { FooterLinkStyle } from "../components/style";
+// import { FooterLinkStyle } from "../components/style";
 
 
 const ProfileLinks = () =>{
@@ -12,9 +12,9 @@ const ProfileLinks = () =>{
     })
 })
 return (
-    <div>
+    <div className="footerList">
         {profileLinks.map(profileLinks=> (   
-        <FooterLinkStyle>  
+        <div>  
             <ul>
                 <li>
                     <a href={profileLinks.url}>
@@ -23,7 +23,7 @@ return (
                     </a>
                 </li>
             </ul>
-        </FooterLinkStyle> 
+        </div> 
         ))}
     </div>
 )}
