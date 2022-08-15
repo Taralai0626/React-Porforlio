@@ -1,5 +1,7 @@
 import styled from "styled-components"
 
+
+/////////////// STYLE FOR FOOTER /////////////////
 export const FooterStyle = styled.footer`
   @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Irish+Grover&family=Libre+Barcode+39+Text&family=Monoton&display=swap');
   display: inline-flex;
@@ -38,6 +40,7 @@ export const FooterLinkStyle = styled.div`
   }
 `;
 
+/////////////// STYLE FOR NAVBAR /////////////////
 export const NavHeaderStyle = styled.header`
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&display=swap');
   display:flex;
@@ -59,46 +62,19 @@ export const NavHeaderStyle = styled.header`
     font-size: 30px;
   }
 
+  &:hover a{
+    color: rgb(	129,	208,	147);
+  }
+
   a {
     color: white;
     text-decoration: none;
   }
 
- /*  #check,label #btn,
-label #cancel {
-  color: #05E5EA;
-  font-size: 30px;
-  float: right;
-  top:5px;
-  left: 80vw;
-  cursor: pointer;
-  display: block;
-  position:absolute;
-}
-@media screen and (max-width:810px){
-  label #btn {
-    display: block;
-  }
-  #check:checked ~ .menu {
-    left: 0;
-  }
 
-  #check:checked ~ label #btn {
-    display: none;
-  }
-
-  #check:checked ~ label #cancel {
-    display: block;
-  } 
-}*/
 `;
 
-export const LinkDecorator = styled.a`
-  &:hover a{
-    color: rgb(	129,	208,	147);
-  }
-`
-
+/////////////// STYLE FOR HOME PAGE /////////////////
 export const NavList = styled.li`
   display:inline-flex;
   justify-content: space-between;
@@ -109,6 +85,7 @@ export const NavList = styled.li`
 `;
 
 
+/////
 export const HomeStyle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&display=swap');
   display: flex;
@@ -134,6 +111,7 @@ export const HomeStyle = styled.div`
   }
 `
 
+/////////////// STYLE FOR SKILL PAGE/////////////////
 export const SkillStyle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&display=swap');
   display: flex;
@@ -158,9 +136,9 @@ export const SkillWrapStyle = styled.div`
   flex-direction: column;
   width: 10%;
   }
-
 `
 
+/////////////// STYLE FOR PROJECT PAGE /////////////////
 export const ProjectStyle = styled.div`
 color: white;
 margin: auto 5em;
@@ -187,6 +165,7 @@ img{
 }
 `
 
+/////////////// STYLE FOR EDUCATION PAGE /////////////////
 export const EducationStyle = styled.div`
   color: white;
   font-family: 'Irish Grover', cursive;
@@ -196,10 +175,7 @@ export const EducationStyle = styled.div`
   margin: 0 4em;
   padding: 10px 0;
 
-
   .eduWrapper{
     padding: 0 4em;
   }
-
-
 `

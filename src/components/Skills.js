@@ -20,6 +20,4 @@ const Skills = () =>{
       </SkillWrapStyle>
   )
 }
-
-
 export default Skills;
