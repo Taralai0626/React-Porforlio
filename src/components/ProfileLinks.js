@@ -14,7 +14,6 @@ const ProfileLinks = () =>{
 return (
     <div className="footerList">
         {profileLinks.map(profileLinks=> (   
-        <div>  
             <ul>
                 <li>
                     <a href={profileLinks.url}>
@@ -23,7 +22,6 @@ return (
                     </a>
                 </li>
             </ul>
-        </div> 
         ))}
     </div>
 )}
