@@ -150,8 +150,8 @@ export const SkillStyle = styled.div`
 `
 
 export const SkillWrapStyle = styled.div`
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
   gap: 2em;
   justify-content: center;
   align-items : center;
@@ -161,6 +161,7 @@ export const SkillWrapStyle = styled.div`
   display: flex;
   flex-direction: column;
   width: 10%;
+  justify-content: center;
   }
 `
 
@@ -195,7 +196,7 @@ img{
 export const EducationStyle = styled.div`
   color: white;
   font-family: 'Irish Grover', cursive;
-  font-size: 24px;
+  font-size: 20px;
   background-color: rgba(	129,	208,	147, 0.2);
   border-radius:50px;
   margin: 0 4em;

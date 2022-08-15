@@ -16,7 +16,7 @@ const Educations = () =>{
           <div className="eduWrapper">
               <h1>{educations.institution_name}</h1>
               <p>{educations.course_name}</p>
-              <p>{educations.date}</p>
+              <p>Enrolled date: {educations.date}</p>
           </div>
           ))}
       </div>

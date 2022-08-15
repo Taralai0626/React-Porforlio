@@ -7,7 +7,7 @@ const Projects = () =>{
     useEffect(()=>{
         axios.get('https://laravel-tara.herokuapp.com/api/projects')
         .then(response => {
-          setProjects(response.data)
+        setProjects(response.data)
         })
     })
     return (

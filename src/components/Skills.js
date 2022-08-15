@@ -7,7 +7,7 @@ const Skills = () =>{
   useEffect(()=>{
       axios.get('https://laravel-tara.herokuapp.com/api/skills')
       .then(response => {
-          setSkills(response.data)
+        setSkills(response.data)
       })
   })
   return (
