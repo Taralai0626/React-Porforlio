@@ -71,7 +71,33 @@ export const NavHeaderStyle = styled.header`
     text-decoration: none;
   }
 
+ /*  #check,label #btn,
+label #cancel {
+  color: #05E5EA;
+  font-size: 30px;
+  float: right;
+  top:5px;
+  left: 80vw;
+  cursor: pointer;
+  display: block;
+  position:absolute;
+}
+@media screen and (max-width:810px){
+  label #btn {
+    display: block;
+  }
+  #check:checked ~ .menu {
+    left: 0;
+  }
 
+  #check:checked ~ label #btn {
+    display: none;
+  }
+
+  #check:checked ~ label #cancel {
+    display: block;
+  } 
+}*/
 `;
 
 /////////////// STYLE FOR HOME PAGE /////////////////

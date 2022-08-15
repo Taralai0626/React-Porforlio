@@ -12,17 +12,19 @@ const ProfileLinks = () =>{
     })
 })
 return (
-    <FooterLinkStyle>
-        {profileLinks.map(profileLinks=> (    
-        <ul>
-            <li>
-                <a href={profileLinks.url}>
-                    <img id="temp" alt="describ" width="50px"src={profileLinks.image}/>
-                    <span>{profileLinks.name}</span>
-                </a>
-            </li>
-        </ul>
+    <div>
+        {profileLinks.map(profileLinks=> (   
+        <FooterLinkStyle>  
+            <ul>
+                <li>
+                    <a href={profileLinks.url}>
+                        <img id="temp" alt="portrait of Tara Lai" width="50px"src={profileLinks.image}/>
+                        <span>{profileLinks.name}</span>
+                    </a>
+                </li>
+            </ul>
+        </FooterLinkStyle> 
         ))}
-    </FooterLinkStyle>
+    </div>
 )}
 export default ProfileLinks;
