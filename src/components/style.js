@@ -136,7 +136,8 @@ export const SkillStyle = styled.div`
   color: white;
   font-family: 'Irish Grover', cursive;
   width: 100%;
-  vertical-align: middle;
+  align-content: center;
+  /* vertical-align: middle; */
   
 `
 
@@ -147,12 +148,15 @@ export const SkillWrapStyle = styled.div`
   justify-content: center;
   align-items : center;
   height: 70vh;
+  vertical-align: center;
+
 
   h1{
   display: flex;
   flex-direction: column;
-  width: 10%;
+  width: 100%;
   justify-content: center;
+  align-items: center;
   }
 `
 
