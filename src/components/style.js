@@ -103,7 +103,7 @@ export const NavList = styled.li`
 
 /////////////// STYLE FOR HOME PAGE /////////////////
 export const HomeStyle = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Irish+Grover&family=Monoton&family=Shadows+Into+Light&family=Yanone+Kaffeesatz:wght@600&display=swap');
   display: flex;
   justify-content: center;
   margin: 0 4em;
@@ -162,6 +162,7 @@ export const SkillWrapStyle = styled.div`
 
 /////////////// STYLE FOR PROJECT PAGE /////////////////
 export const ProjectStyle = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Irish+Grover&family=Monoton&family=Shadows+Into+Light&family=Yanone+Kaffeesatz:wght@600&display=swap');
 color: white;
 margin: auto 3em;
 padding: 2em 2em;
@@ -185,22 +186,28 @@ img{
 .content-wrapper{
   width: 50%;
   font-size: 24px;
-  font-family: 'Irish Grover', cursive;
+  font-family: 'Fjalla One', sans-serif;
 
 }
 `
 
 /////////////// STYLE FOR EDUCATION PAGE /////////////////
 export const EducationStyle = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Irish+Grover&family=Monoton&family=Shadows+Into+Light&family=Yanone+Kaffeesatz:wght@600&display=swap');
   color: white;
-  font-family: 'Irish Grover', cursive;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 20px;
-  background-color: rgba(	129,	208,	147, 0.2);
+  background-color: rgba(	129,	208,	147, 0.6);
   border-radius:50px;
   margin: 0 4em;
   padding: 10px 0;
 
   .eduWrapper{
     padding: 0 4em;
+  }
+
+  p{
+    font-size: 22px;
+    font-weight: bold;
   }
 `
