@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 /////////////// STYLE FOR FOOTER /////////////////
 export const FooterStyle = styled.footer`
-  @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Irish+Grover&family=Libre+Barcode+39+Text&family=Monoton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Yanone+Kaffeesatz:wght@600&display=swap');
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +14,7 @@ export const FooterStyle = styled.footer`
   margin-left: 4em;
   color: white;
   font-size: 20px;
-  font-family: 'Irish Grover', cursive; 
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   margin-top: auto;
 `;
 
@@ -38,7 +38,7 @@ export const FooterLinkStyle = styled.div`
 
 /////////////// STYLE FOR NAVBAR /////////////////
 export const NavHeaderStyle = styled.header`
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Yanone+Kaffeesatz:wght@600&display=swap');
   display:flex;
   position:relative;
   align-items: center;
@@ -48,13 +48,13 @@ export const NavHeaderStyle = styled.header`
 
   h2 {
     font-size: 48px;
-    font-family: 'Irish Grover', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
   }
 
   li {
     list-style: none;
     display: inline-block;
-    font-family: 'Irish Grover', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 30px;
   }
 
