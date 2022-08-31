@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #1E1E1E;
-  background-size: 100%;
+  background-size: cover;
 }
 
 code {
