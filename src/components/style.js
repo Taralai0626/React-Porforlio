@@ -48,7 +48,7 @@ export const NavHeaderStyle = styled.header`
 
   h2 {
     font-size: 48px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Irish Grover', cursive; 
   }
 
   li {
@@ -130,11 +130,11 @@ export const HomeStyle = styled.div`
 
 /////////////// STYLE FOR SKILL PAGE/////////////////
 export const SkillStyle = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Yanone+Kaffeesatz:wght@600&display=swap');
   display: flex;
   flex-direction: column;
   color: white;
-  font-family: 'Irish Grover', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   width: 100%;
   align-content: center;
   /* vertical-align: middle; */
