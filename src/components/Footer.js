@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileLinks from "../components/ProfileLinks";
-// import { FooterStyle } from "../components/style";
+import { FooterStyle } from "../components/style";
 
 
 // const Footer = () =>{
@@ -32,10 +32,10 @@ import ProfileLinks from "../components/ProfileLinks";
 
 function Footer() {
   return(
-    <footer id="footer">
-      <div>&copy; Tara Lai, 2022.</div>
+    <FooterStyle className="footer">
+      <div className="footer-copy">&copy; Tara Lai, 2022.</div>
       <ProfileLinks/>
-    </footer>  
+    </FooterStyle>  
   )
 }
 export default Footer;

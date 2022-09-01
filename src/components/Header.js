@@ -3,14 +3,13 @@ import Nav from "./Nav";
 import { NavHeaderStyle } from "../components/style";
 
 class Header extends React.Component {
+
   render() {
-    return(
-      <div>
-        <NavHeaderStyle id="header">
-          <h2 id="site-name"><a href="/">Tara Lai</a></h2>
-          <Nav />
-        </NavHeaderStyle>
-      </div>
+    return( 
+      <NavHeaderStyle id="header">
+        <h2 id="site-name"><a href="/">Tara Lai</a></h2>
+        <Nav />          
+      </NavHeaderStyle>
     );
   }
 }

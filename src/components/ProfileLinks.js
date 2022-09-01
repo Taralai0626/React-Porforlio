@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, {useState, useEffect} from 'react';
-// import { FooterLinkStyle } from "../components/style";
+//import { FooterLinkStyle } from "../components/style";
 
 
 const ProfileLinks = () =>{
@@ -18,7 +18,7 @@ return (
                 <li>
                     <a href={profileLinks.url}>
                         <img id="temp" alt="portrait of Tara Lai" width="50px"src={profileLinks.image}/>
-                        <span>{profileLinks.name}</span>
+                        <span className="footer-name">{profileLinks.name}</span>
                     </a>
                 </li>
             </ul>

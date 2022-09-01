@@ -1,26 +1,35 @@
-import React from "react";
+import React,{useState} from "react";
 import { NavLink } from "react-router-dom";
 import { NavList } from "../components/style";
 // import { Navbar, Nav, Container } from 'react-bootstrap';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { VStack } from '@chakra-ui/layout';
+
 
 function Nav() {
+
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return(
     <nav id="main-navigation" aria-label="Main navigation">
-      <ul className="menu">
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <NavList>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/" activeClassName="active" className="nav-links" onClick={handleClick}>About</NavLink>
         </NavList>
         <NavList>
-          <NavLink to="/skill">Skill</NavLink>
+          <NavLink to="/skill" activeClassName="active" className="nav-links" onClick={handleClick}>Skills</NavLink>
         </NavList>
         <NavList>
-          <NavLink to="/education">Education</NavLink>
+          <NavLink to="/education" activeClassName="active" className="nav-links" onClick={handleClick}>Education</NavLink>
         </NavList>
         <NavList>
-          <NavLink to="/project">Project</NavLink>
-        </NavList>
+          <NavLink to="/project" activeClassName="active" className="nav-links" onClick={handleClick}>Projects</NavLink>
+        </NavList> 
       </ul>
+      <div className="nav-icon" onClick={handleClick}>
+        <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+      </div>
     </nav>
   )
 }

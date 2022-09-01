@@ -69,3 +69,64 @@ header a:hover, footer a:hover {
   margin: 0 4em;
   border-radius:50px;
 }
+
+nav{
+  height: 100%;
+  display: flex;
+}
+
+/* .nav-icon{ */
+  /* margin-top: 3em; */
+/* } */
+
+@media (max-width: 960px) {
+  #header{
+    background-color: rgba(	129,	208,	147, 0.8) !important;
+    margin: auto 0;
+    padding: 0 3em;
+  }
+
+  #site-name{
+    margin: 10px 0;
+  }
+  
+  .footer{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    margin-left: 0 !important;
+    
+  }
+  .footer-copy{
+    padding-left: 2em;
+  }
+
+  body{
+  background-color: #1E1E1E;
+  background-image: url(./components/img/leafs_background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+  /* #portrait{ */
+    /* display: none; */
+  /* } */
+  .portrait2{
+    background-image: url(./components/img/IMG_3057.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+     /*width of your image*/
+    height:300px;
+  }
+  /* .portrait2 img{ */
+    /* width: 50%; */
+  /* } */
+
+  .home-style{
+    display: flex !important;
+    flex-direction: column !important;
+   /*  height: 200px !important; */
+  }
+
+}
