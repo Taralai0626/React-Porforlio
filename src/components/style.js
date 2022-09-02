@@ -18,9 +18,9 @@ export const FooterStyle = styled.footer`
   margin-top: auto;
 
   @media (max-width: 960px) {
-    .footer-name{
+    /* .footer-name{
       display: none;
-    }
+    } */
   }
 `;
 

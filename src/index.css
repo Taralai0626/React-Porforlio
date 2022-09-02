@@ -89,7 +89,7 @@ nav{
   #site-name{
     margin: 10px 0;
   }
-  
+
   .footer{
     display: flex !important;
     flex-direction: column-reverse !important;
@@ -98,6 +98,10 @@ nav{
   }
   .footer-copy{
     padding-left: 2em;
+  }
+
+  .footer-name{
+    display: none;
   }
 
   body{
