@@ -192,13 +192,13 @@ export const HomeStyle = styled.div`
   width: 90%;
   text-align: center;
 
-  p{
-    font-size: 64px;
+  /* p{
+    font-size: 22px;
     color: white;
-    width: 80%;
-    padding-right: 1em;
-    font-family: 'Bree Serif', serif;
-  }
+    width: 80%; /* no need */
+    /* padding-right: 1em;
+    font-family: 'Bree Serif', serif; */
+  /* } */ 
 
   img{
     /* margin-top: 0; */
