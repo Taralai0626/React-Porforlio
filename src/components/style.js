@@ -192,22 +192,23 @@ export const HomeStyle = styled.div`
   width: 90%;
   text-align: center;
 
-  /* p{
-    font-size: 22px;
+  p{
+    font-size: 52px;
     color: white;
-    width: 80%; /* no need */
-    /* padding-right: 1em;
-    font-family: 'Bree Serif', serif; */
-  /* } */ 
+    width: 100%; /* no need */
+    padding-right: 1em;
+    margin-left: 0;
+    font-family: 'Bree Serif', serif;
+  }
 
   img{
     /* margin-top: 0; */
-    width: 60%;
+    width: 50%;
   }
 
   .portraitWrapper{
-    width:100%;
-    margin: 0 4em;
+    width:80%;
+    margin: 0;
   }
 
   @media (max-width: 960px) {
