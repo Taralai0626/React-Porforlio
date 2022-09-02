@@ -344,4 +344,15 @@ export const EducationStyle = styled.div`
     font-size: 22px;
     font-weight: bold;
   }
+
+  @media (max-width: 960px) {
+    margin: 1em 1em;
+    font-size: 12px;
+    padding: 6px auto;
+  }
+
+  p{
+    font-size: 18px;
+    font-weight: bold;
+  }
 `
