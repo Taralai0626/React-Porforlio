@@ -96,7 +96,7 @@ export const NavHeaderStyle = styled.header`
   @media (max-width: 960px) {
     .nav-menu {
       display: flex;
-      padding: 0 1em;
+      padding: 0 0.5em;
       flex-direction: column;
       text-align: center;
       width: 100%;
@@ -206,7 +206,8 @@ export const HomeStyle = styled.div`
   }
 
   .portraitWrapper{
-    width:40%;
+    width:100%;
+    margin: 0 4em;
   }
 
   @media (max-width: 960px) {
@@ -214,7 +215,7 @@ export const HomeStyle = styled.div`
     font-size: 26px;
     color: #2E5B36;
     width: 80%;
-    padding-right: 1em;
+    padding-right: 2em;
     font-family: 'Bree Serif', serif;
   }
     .portraitWrapper img{
