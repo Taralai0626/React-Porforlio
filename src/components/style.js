@@ -19,7 +19,7 @@ export const FooterStyle = styled.footer`
 
   @media (max-width: 960px) {
     .footer-name{
-      font-size:0;
+      display: none;
     }
   }
 `;
