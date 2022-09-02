@@ -235,7 +235,12 @@ export const SkillStyle = styled.div`
   width: 100%;
   align-content: center;
   /* vertical-align: middle; */
-  
+  @media (max-width: 960px) {
+    .skill-container img{
+      width: 50px;
+      margin: 0;
+    }
+  }
 `
 
 export const SkillWrapStyle = styled.div`
@@ -254,6 +259,15 @@ export const SkillWrapStyle = styled.div`
   width: 100%;
   justify-content: center;
   align-items: center;
+  }
+
+  @media (max-width: 960px) {
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    height: 50vh;
+    gap:8px;
+    margin: 2em 0;
+    padding-bottom: 5em;
   }
 `
 
@@ -284,7 +298,30 @@ img{
   width: 50%;
   font-size: 24px;
   font-family: 'Fjalla One', sans-serif;
+}
 
+@media (max-width: 960px) {
+  margin:1em;
+  padding: 1em;
+
+  .project-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+  .content-wrapper{
+    font-size: 20px;
+    width: 100%;
+}
+  .img-wrapper{
+  width: 100%;
+}
+  h1{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 0;
+  }
 }
 `
 

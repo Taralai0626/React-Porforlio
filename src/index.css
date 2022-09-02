@@ -65,7 +65,7 @@ header a:hover, footer a:hover {
 }
 
 .project-container {
-  background-color: rgba(	129,	208,	147, 0.6);
+  background-color: rgba(	129,	208,	147, 0.7);
   margin: 0 4em;
   border-radius:50px;
 }
@@ -134,6 +134,10 @@ nav{
    /*  height: 200px !important; */
     
     justify-content: center !important;
+  }
+
+  .project-container{
+    margin: 0 1em;
   }
 
 }
