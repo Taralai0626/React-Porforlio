@@ -5,7 +5,7 @@ import { HomeStyle } from "../components/style";
 const Abouts = () =>{
     const [abouts, setAbouts] = useState([]);
     useEffect(()=>{
-        axios.get('https://laravel-tara.herokuapp.com/api/abouts')
+        axios.get('/public/json/aboutsData.json')
         .then(response => {
             setAbouts(response.data)
         })
