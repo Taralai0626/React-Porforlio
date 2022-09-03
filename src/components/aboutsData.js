@@ -1,8 +1,9 @@
-[
+
+export const aboutData = [
  {
    "id": 1,
    "title": "Full-stack developer",
-   "image": "http://mhno.great-site.net/images/portrait.png",
+   "image": require("./img/portrait.png"),
    "content": "Hello! My name is Tara. I’m a full-stack web developer from Toronto. I am also a concert enthusiast.",
    "user_id": 1,
    "created_at": "2022-08-05T02:10:00.000000Z",

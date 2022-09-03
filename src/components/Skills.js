@@ -1,20 +1,21 @@
-import axios from "axios";
-import React, {useState, useEffect} from 'react';
+// import axios from "axios";
+// import React, {useState, useEffect} from 'react';
 import { SkillWrapStyle } from "../components/style";
+import { skillsData } from "../components/skillData";
 
 const Skills = () =>{
-  const [skills, setSkills] = useState([]);
+  /* const [skills, setSkills] = useState([]);
   useEffect(()=>{
       axios.get('https://laravel-tara.herokuapp.com/api/skills')
       .then(response => {
         setSkills(response.data)
       })
-  })
+  }) */
   return (
       <SkillWrapStyle className="skill-wrapper">
-          {skills.map(skills=> (
+          {skillsData.map(skillsData=> (
           <div className="skill-container">       
-              <h1><img id="temp" alt="describ" width="100px"src={skills.image}/>{skills.title}</h1>
+              <h1><img id="temp" alt="describ" width="100px"src={skillsData.image}/>{skillsData.title}</h1>
           </div>
           ))}
       </SkillWrapStyle>

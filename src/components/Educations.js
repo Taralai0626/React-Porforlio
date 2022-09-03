@@ -5,7 +5,7 @@ import React, {useState, useEffect} from 'react';
 const Educations = () =>{
   const [educations, setEducations] = useState([]);
   useEffect(()=>{
-      axios.get('https://laravel-tara.herokuapp.com/api/educations')
+      axios.get('./educationData.json')
       .then(response => {
         setEducations(response.data)
       })
