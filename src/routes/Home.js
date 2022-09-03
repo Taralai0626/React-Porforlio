@@ -3,11 +3,11 @@ import Abouts from "../components/Abouts"
 
 
 
-function Education() {
+function About() {
     return(
       <main id="main">
         <Abouts/>
       </main>
     )
   }
-  export default Education;
+  export default About;

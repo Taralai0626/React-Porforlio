@@ -5,7 +5,7 @@ import { ProjectStyle } from "../components/style";
 const Projects = () =>{
     const [projects, setProjects] = useState([]);
     useEffect(()=>{
-        axios.get('https://laravel-tara.herokuapp.com/api/projects')
+        axios.get('./projectData.json')
         .then(response => {
         setProjects(response.data)
         })

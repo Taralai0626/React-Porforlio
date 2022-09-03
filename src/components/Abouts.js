@@ -5,21 +5,21 @@ import { HomeStyle } from "../components/style";
 const Abouts = () =>{
     const [abouts, setAbouts] = useState([]);
     useEffect(()=>{
-        axios.get('/public/json/aboutsData.json')
+        axios.get('./aboutsData.json')
         .then(response => {
             setAbouts(response.data)
         })
     })
     return (
         <div>
-            {abouts.map(abouts=> (
+            {abouts.map(about=> (
             <HomeStyle className="home-style">
                 <div className="portraitWrapper">
-                    <img id="portrait1" alt="a portrait of Tara Lai"src={abouts.image}/>
+                    <img id="portrait1" src="http://mhno.great-site.net/images/portrait.png" alt="a portrait of Tara Lai"/>
                     {/* <img id="portrait2" alt="a portrait of Tara Lai"src="./img/IMG_3057.jpg"/> */}
                 </div>
                 <div className="portrait2"></div>
-                <p>{abouts.content}</p>
+                <p>{about.content}</p>
             </HomeStyle>
             ))}
         </div>
