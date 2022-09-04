@@ -120,7 +120,7 @@ nav{
     background-image: url(./components/img/IMG_3057.jpg);
     background-size:contain;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 70%;
      /*width of your image*/
     height:300px;
     margin-top: 2em;
@@ -133,8 +133,9 @@ nav{
     display: flex !important;
     flex-direction: column !important;
    /*  height: 200px !important; */
-    
+    margin: 0 22px !important;
     justify-content: center !important;
+    align-items: center !important;
   }
 
   .project-container{

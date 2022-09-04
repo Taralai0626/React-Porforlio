@@ -213,10 +213,10 @@ export const HomeStyle = styled.div`
 
   @media (max-width: 960px) {
     p{
-    font-size: 26px;
+    font-size: 28px;
     color: #2E5B36;
-    width: 80%;
-    padding-right: 2em;
+    width: 100%;
+    padding: 0em;
     font-family: 'Bree Serif', serif;
   }
     .portraitWrapper img{
