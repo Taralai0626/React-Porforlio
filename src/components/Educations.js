@@ -15,8 +15,8 @@ const Educations = () =>{
           {educations.map(educations=> (
           <div className="eduWrapper">
               <h1>{educations.institution_name}</h1>
+              <p>{educations.degree}</p>
               <p>{educations.course_name}</p>
-              <p>Enrolled date: {educations.date}</p>
           </div>
           ))}
       </div>
