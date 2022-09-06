@@ -76,12 +76,12 @@ export const NavHeaderStyle = styled.header`
 
   li:hover:after{
     width:100%;
-    background: #ffdd40;
+    background: rgb(	129,	208,	147);;
   }
 
   li .active{
     color: rgb(	129,	208,	147);
-    /* border: 1px solid #ffdd40; */
+   /*  border: 1px solid #ffdd40; */
   }
 
   a {
@@ -96,47 +96,55 @@ export const NavHeaderStyle = styled.header`
   @media (max-width: 960px) {
     .nav-menu {
       display: flex;
-      padding: 0 0.5em;
+      margin: 0;
       flex-direction: column;
       text-align: center;
       width: 100%;
       /* border-top: 1px solid #fff; */
       position: absolute;
-      top: 78px; /* the gap between menu and links */
+      top:78px; /* the gap between menu and links */
       left: -110%;
       opacity: 0.5;
-      background: #8BA891
+      /* background: #8BA891 */
     }
 
     .nav-menu.active{
-      left: -1px;
+      left: 0;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
-      margin: 0;
+      padding: 0;
     }
 
     .nav-links {
       padding: 0;
+      margin: -1.5px 0;
       width: 100%;
       display: table;
-      /* background: #2E5B36 */;
+      background: #8BA891;
     }
-  /*   .nav-links2{
+    .nav-links2{
       padding: 0;
+      margin: -1.5px 0;
+      /* margin: 0; */
       width: 100%;
       display: table;
-      background: #ffdd40;
-    } */
+      /* background: #E8D068; */
+      background: #8BA891;
+    }
     li {
      /*  padding-left:0; */
-     padding: 10px 0;
-
+     padding:0;
+     margin: 0;
     }
+    li .active{
+    color: rgb(	129,	208,	147);
+    border: 1px solid #ffdd40;
+  }
     .nav-icon {
       display: block;
       position: absolute;
-      top: 5%;
+      top: -5%;
       right:0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;

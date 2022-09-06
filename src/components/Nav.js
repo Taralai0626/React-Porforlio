@@ -18,13 +18,13 @@ function Nav() {
           <NavLink to="/" activeClassName="active" className="nav-links" onClick={handleClick}>About</NavLink>
         </NavList>
         <NavList>
-          <NavLink to="/skill" activeClassName="active" className="nav-links" onClick={handleClick}>Skills</NavLink>
+          <NavLink to="/skill" activeClassName="active" className="nav-links2" onClick={handleClick}>Skills</NavLink>
         </NavList>
         <NavList>
           <NavLink to="/education" activeClassName="active" className="nav-links" onClick={handleClick}>Education</NavLink>
         </NavList>
         <NavList>
-          <NavLink to="/project" activeClassName="active" className="nav-links" onClick={handleClick}>Projects</NavLink>
+          <NavLink to="/project" activeClassName="active" className="nav-links2" onClick={handleClick}>Projects</NavLink>
         </NavList> 
       </ul>
       <div className="nav-icon" onClick={handleClick}>
