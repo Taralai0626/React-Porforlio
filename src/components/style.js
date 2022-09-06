@@ -71,7 +71,7 @@ export const NavHeaderStyle = styled.header`
     height: 3px;
     width: 0;
     background: transparent;
-    transition: width 0.5s ease, background-color 0.5s ease;
+    transition: width 0.5s ease, background-color 0.7s ease;
   }
 
   li:hover:after{
@@ -109,8 +109,7 @@ export const NavHeaderStyle = styled.header`
     }
 
     .nav-menu.active{
-     
-      left: -16px;
+      left: -1px;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;

@@ -1,11 +1,29 @@
 // import axios from "axios";
 // import React, {useState, useEffect} from 'react';
+import React, { useState } from "react";
 import { ProjectStyle } from "../components/style";
 import { proData } from "../components/projectData";
-import React from 'react';
+// import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../App.css";
 // import { Button } from '@chakra-ui/react'
 // import { FaEdge , FaMap } from "react-icons/fa"
+
+const ReadMore = ({ children }) => {
+    const text = children;
+    const [isReadMore, setIsReadMore] = useState(true);
+    const toggleReadMore = () => {
+      setIsReadMore(!isReadMore);
+    };
+    return (
+      <p className="text">
+        {isReadMore ? text.slice(0, 150) : text}
+        <span onClick={toggleReadMore} className="read-or-hide">
+          {isReadMore ? "...read more" : " show less"}
+        </span>
+      </p>
+    );
+  };
 
 const Projects = () =>{
     /* const [projects, setProjects] = useState([]);
@@ -26,7 +44,7 @@ const Projects = () =>{
                         <a className="btn btn-success proButton" href={proData.url} role="button">View Code</a>
                     </div>
                     <div className="content-wrapper">
-                        <p>{proData.content}</p>
+                        <ReadMore>{proData.content}</ReadMore>
                     </div>
                 </div>
             </ProjectStyle>
