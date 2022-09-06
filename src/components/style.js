@@ -287,6 +287,9 @@ img{
 
 .img-wrapper{
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-wrapper{
@@ -299,6 +302,12 @@ img{
   width: 50%;
   font-size: 24px;
   font-family: 'Fjalla One', sans-serif;
+}
+
+.proButton{
+  margin: 2em 6em 0 6em;
+ /*  padding: 0.5em 3em !important; */
+  /* width: 50%; */
 }
 
 @media (max-width: 960px) {
@@ -323,6 +332,9 @@ img{
     font-size: 26px;
     margin-bottom: 0;
   }
+  .proButton{
+    margin: 2em 4em;
+  }
 }
 `
 
@@ -335,11 +347,7 @@ export const EducationStyle = styled.div`
   background-color: rgba(	129,	208,	147, 0.6);
   border-radius:50px;
   margin: 0 4em;
-  padding: 10px 0;
-
-  .eduWrapper{
-    padding: 0 4em;
-  }
+  padding: 2em 2em;
 
   p{
     font-size: 22px;

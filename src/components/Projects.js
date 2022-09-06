@@ -2,6 +2,10 @@
 // import React, {useState, useEffect} from 'react';
 import { ProjectStyle } from "../components/style";
 import { proData } from "../components/projectData";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Button } from '@chakra-ui/react'
+// import { FaEdge , FaMap } from "react-icons/fa"
 
 const Projects = () =>{
     /* const [projects, setProjects] = useState([]);
@@ -18,9 +22,8 @@ const Projects = () =>{
                 <h1>{proData.title}</h1>
                 <div className="project-wrapper">  
                     <div className="img-wrapper">
-                        <a href={proData.url}>
-                            <img id="temp" alt="describ"src={proData.image}/>
-                        </a>
+                        <img id="temp" alt="describ"src={proData.image}/>
+                        <a className="btn btn-success proButton" href={proData.url} role="button">View Code</a>
                     </div>
                     <div className="content-wrapper">
                         <p>{proData.content}</p>
