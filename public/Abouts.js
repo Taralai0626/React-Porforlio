@@ -18,20 +18,19 @@ const Abouts = () =>{
             <HomeStyle className="home-style">
                 <div className="portraitWrapper">
                     <img id="portrait1" src={aboutData.image}  alt="a portrait of Tara Lai"/>
-                    <div className="portrait2"></div>
+                    <img id="portrait2" alt="a portrait of Tara Lai" src="./img/IMG_3057.jpg"/>
                 </div>
-                <div className="title-container">
-                    <p className="title">
-                        Hi, My name is Tara! <br />
-                        I am a 
-                        <div className="rotate-words">
-                            <span className="title-card1">Web developer.</span>
-                            <span className="title-card2">team player.</span>
-                            <span className="title-card3">concert enthusiast.</span>
-                        </div>
-                    </p>
-                    {/* <p>{aboutData.content}</p> */}
-                </div>
+                <div className="portrait2"></div>
+                <p className="title">
+                    Hi, My name is Tara! <br />
+                    I am a 
+                    <div className="rotate-words">
+                        <span className="title-card1"> Web developer.</span>
+                        <span className="title-card2"> team player.</span>
+                        <span className="title-card3"> concert enthusiast.</span>
+                    </div>
+                </p>
+                {/* <p>{aboutData.content}</p> */}
             </HomeStyle>
             ))}
         </div>

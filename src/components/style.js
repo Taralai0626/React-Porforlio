@@ -76,7 +76,7 @@ export const NavHeaderStyle = styled.header`
 
   li:hover:after{
     width:100%;
-    background: rgb(	129,	208,	147);;
+    background: #ffdd40;
   }
 
   li .active{
@@ -195,41 +195,70 @@ export const HomeStyle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fjalla+One&family=Irish+Grover&family=Monoton&family=Shadows+Into+Light&family=Yanone+Kaffeesatz:wght@600&display=swap');
   display: flex;
   justify-content: center;
-  margin: 0 4em;
-  width: 90%;
+  margin: 0;
+  width: 100%;
   text-align: center;
 
   p{
     font-size: 52px;
     color: white;
     width: 100%; /* no need */
-    padding-right: 1em;
-    margin-left: 0;
+    /* padding-right: 1em; */
+    padding: 0;
+    margin: 0;
     font-family: 'Bree Serif', serif;
   }
 
   img{
     /* margin-top: 0; */
-    width: 50%;
+    width: 100%;
+    /* height:500px */
+  
   }
 
   .portraitWrapper{
-    width:80%;
-    margin: 0;
+    width:20%;
+    
+  }
+  .title-container{
+    width: 50%;
+    margin-left: 4em;
   }
 
   @media (max-width: 960px) {
+    
     p{
     font-size: 28px;
-    color: #2E5B36;
-    width: 100%;
+    font-weight: bolder;
+    color: #618E69;
+    width: 40%;
     padding: 0em;
+    margin-bottom: 2em;
     font-family: 'Bree Serif', serif;
   }
     .portraitWrapper img{
       display: none;
     }
+    .portraitWrapper{
+      width: 100%;
+      place-content: center;
+      display: flex;
+    }
+    .title-container{
+      width: 100%;
+      place-content: center;
+      display: flex;
+      margin-left: 0;
+    }
 
+  }
+  @media (max-width: 380px){
+    .portrait2{
+      width: 60%;
+    }
+    p{
+      width: 75%;
+    }
   }
 `
 
