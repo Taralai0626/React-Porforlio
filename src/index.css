@@ -316,5 +316,6 @@ nav{
     max-inline-size: -webkit-fill-available;
     max-width: -moz-available;
     margin: 1em 0;
+    width: 300px;
   }  
 }
