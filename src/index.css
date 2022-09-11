@@ -319,6 +319,6 @@ nav{
     gap: 4em;
   }
   .card{
-    max-height: 100%;
+    max-width: -moz-available;
   }  
 }
