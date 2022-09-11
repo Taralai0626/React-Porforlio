@@ -15,16 +15,16 @@ export const artsData = [
   },
   {
     "id": 2,
-    "type": "Acrylic",
+    "type": "Sketch",
     "image": require("./img/IMG_5131.jpg"),
     "content": "Hello! My name is Tara. I’m a full-stack web developer from Toronto. I am also a concert enthusiast.",
     "second":{
       "image":require("./img/IMG_0048.jpg"),
-      "type": "Acrylic",
+      "type": "Sketch",
     },
     "third":{
       "image":require("./img/IMG_2985.jpg"),
-      "type": "Acrylic",
+      "type": "Sketch",
     }
   }
   ]
