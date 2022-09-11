@@ -178,7 +178,7 @@ nav{
 .card{
   position: relative;
   width: 500px;
-  /* height: 500px; */
+  height: 500px;
   color: #a18a96;
   background-repeat: no-repeat;
   background-size: cover;
