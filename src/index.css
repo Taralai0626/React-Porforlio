@@ -319,6 +319,6 @@ nav{
     gap: 4em;
   }
   .card{
-    max-width: -moz-available;
+    max-width: -webkit-fill-available;
   }  
 }
