@@ -316,7 +316,10 @@ nav{
     gap: 4em;
   }
   .card{
-    height: 100%;
+    width: 100%;
+  }
+  .card img{
+    height:100%;
   }
 }
 
