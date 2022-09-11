@@ -64,10 +64,24 @@ export const skillsData = [
     "percent": 41,
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Laravel",
     "url": "https://laravel.com/",
     "image": require("./img/laravel1.png"),
+    "percent": 10,
+  },
+  {
+    "id": 11,
+    "title": "Asp.net",
+    "url": "https://laravel.com/",
+    "image": require("./img/aspnet.png"),
+    "percent": 10,
+  },
+  {
+    "id": 12,
+    "title": "Figma",
+    "url": "https://laravel.com/",
+    "image": require("./img/figma.png"),
     "percent": 10,
   }
   ]

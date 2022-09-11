@@ -144,7 +144,7 @@ export const NavHeaderStyle = styled.header`
     .nav-icon {
       display: block;
       position: absolute;
-      top: -5%;
+      top: -8%;
       right:0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
