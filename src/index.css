@@ -202,12 +202,12 @@ nav{
   content: '';
   position: absolute;
   top: -47px;
-  right: -45px;
+  right: -60px;
   width: 100px;
   height: 100px;
   transform: rotate(-175deg);
   border-radius: 50%;
-  box-shadow: inset 48px 48px #fff;
+  box-shadow: inset 60px 48px #fff;
 }
 .card_title {
   color: #6A515E;
