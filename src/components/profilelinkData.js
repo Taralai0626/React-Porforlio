@@ -1,74 +1,26 @@
 export const linkData =[
- {
-   "id": 1,
-   "name": "GitHub",
-   "url": "https://github.com/Taralai0626",
-   "image": require("./img/githublogo.png"),
-   "user_id": 2,
-   "created_at": "2022-08-06T16:43:22.000000Z",
-   "updated_at": "2022-08-07T19:58:52.000000Z",
-   "user": {
-     "id": 2,
-     "first": "Evalyn",
-     "last": "Buckridge",
-     "email": "emery.lesch@example.org",
-     "email_verified_at": "2022-08-05T02:10:00.000000Z",
-     "created_at": "2022-08-05T02:10:00.000000Z",
-     "updated_at": "2022-08-05T02:10:00.000000Z"
-   }
- },
- {
-   "id": 2,
-   "name": "LinkedIn",
-   "url": "https://www.linkedin.com/in/taralai0626/",
-   "image": require("./img/linkedin1.png"),
-   "user_id": 1,
-   "created_at": "2022-08-06T16:43:22.000000Z",
-   "updated_at": "2022-08-07T19:58:33.000000Z",
-   "user": {
-     "id": 1,
-     "first": "Myra",
-     "last": "Lakin",
-     "email": "dkessler@example.org",
-     "email_verified_at": "2022-08-05T02:10:00.000000Z",
-     "created_at": "2022-08-05T02:10:00.000000Z",
-     "updated_at": "2022-08-05T02:10:00.000000Z"
-   }
- },
- {
-   "id": 4,
-   "name": "Instagram",
-   "url": "https://www.instagram.com/justartbylai/?hl=en",
-   "image": require("./img/instagram.png"),
-   "user_id": 3,
-   "created_at": "2022-09-03T01:51:44.000000Z",
-   "updated_at": "2022-09-03T01:51:44.000000Z",
-   "user": {
-     "id": 3,
-     "first": "Tara",
-     "last": "Lai",
-     "email": "TaraLai@test.com",
-     "email_verified_at": null,
-     "created_at": "2022-08-05T02:37:57.000000Z",
-     "updated_at": "2022-08-05T02:38:12.000000Z"
-   }
- },
- {
-   "id": 5,
-   "name": "E-mail",
-   "url": "mailto:taralai.developer@gmail.com",
-   "image": require("./img/mail.png"),
-   "user_id": 3,
-   "created_at": "2022-09-03T01:53:31.000000Z",
-   "updated_at": "2022-09-03T01:53:31.000000Z",
-   "user": {
-     "id": 3,
-     "first": "Tara",
-     "last": "Lai",
-     "email": "TaraLai@test.com",
-     "email_verified_at": null,
-     "created_at": "2022-08-05T02:37:57.000000Z",
-     "updated_at": "2022-08-05T02:38:12.000000Z"
-   }
- }
-]
+  {
+    "id": 1,
+    "name": "GitHub",
+    "url": "https://github.com/Taralai0626",
+    "image": require("./img/githublogo.png"),
+  },
+  {
+    "id": 2,
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/taralai0626/",
+    "image": require("./img/linkedin1.png"),
+  },
+  {
+    "id": 4,
+    "name": "Instagram",
+    "url": "https://www.instagram.com/justartbylai/?hl=en",
+    "image": require("./img/instagram.png"),
+  },
+  {
+    "id": 5,
+    "name": "E-mail",
+    "url": "mailto:taralai.developer@gmail.com",
+    "image": require("./img/mail.png"),
+  }
+  ]

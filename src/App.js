@@ -5,6 +5,7 @@ import Home from "./routes/Home";
 import Skill from "./routes/Skill";
 import Education from "./routes/Education";
 import Project from "./routes/Project";
+import Art from "./routes/Art";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/skill" element={<Skill />} />
           <Route path="/education" element={<Education />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/art" element={<Art />} />
         </Routes>
         <Footer />
       </BrowserRouter>
