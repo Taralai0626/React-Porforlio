@@ -267,7 +267,8 @@ export const SkillStyle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Yanone+Kaffeesatz:wght@600&display=swap');
   display: flex;
   flex-direction: column;
-  color: white;
+  color: #0a9396;
+  
   font-family: 'Yanone Kaffeesatz', sans-serif;
   width: 100%;
   align-content: center;
