@@ -232,7 +232,8 @@ nav{
 
 @media (max-width: 960px) {
   #header{
-    background-color: rgba(	129,	208,	147, 0.8) !important;
+    /* background-color: rgba(	129,	208,	147, 0.8) !important; */
+    background-color: #0a9396;
     margin: auto 0;
     padding: 0 3em;
   }
@@ -320,5 +321,6 @@ nav{
   }
   .card{
     max-width: -webkit-fill-available;
+    max-width: -moz-available;
   }  
 }

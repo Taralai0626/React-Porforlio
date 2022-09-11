@@ -121,7 +121,7 @@ export const NavHeaderStyle = styled.header`
       margin: -1.5px 0;
       width: 100%;
       display: table;
-      background: #8BA891;
+      background: #005f73;
     }
     .nav-links2{
       padding: 0;
@@ -130,7 +130,7 @@ export const NavHeaderStyle = styled.header`
       width: 100%;
       display: table;
       /* background: #E8D068; */
-      background: #8BA891;
+      background: #005f73;
     }
     li {
      /*  padding-left:0; */
