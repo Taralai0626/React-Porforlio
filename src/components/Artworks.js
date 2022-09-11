@@ -14,7 +14,7 @@ import "../App.css";
 const Artworks = () =>{
  
     return (
-        <div>
+        <>
             {artsData.map(artsData=> (
                 <div className="row"> 
                     <div className="column">  
@@ -40,7 +40,7 @@ const Artworks = () =>{
                     </div>          
                 </div>
             ))}
-        </div>
+        </>
     )
 }
 export default Artworks;

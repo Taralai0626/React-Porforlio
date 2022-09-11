@@ -299,15 +299,18 @@ nav{
     flex: 100%;
     max-width: 100%;
   }
-
-  .column img{
+  .row{
+    --bs-gutter-x: 0 !important;  
     width: 90%;
+  }
+  .art-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-left: 1em;
-    /* margin-bottom: 0; */
+    align-items: center;
   }
 
+/* education */
   .card_container{
     display: flex;
     flex-direction: column;
@@ -322,9 +325,3 @@ nav{
     height:100%;
   }
 }
-
-/* @media (max-width: 380px){ */
-  /* .card{ */
-    /* width: 100%; */
-  /* } */
-/* } */
