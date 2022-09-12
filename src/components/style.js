@@ -8,7 +8,7 @@ export const FooterStyle = styled.footer`
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 90%;
   margin-left: 4em;
@@ -21,6 +21,8 @@ export const FooterStyle = styled.footer`
     /* .footer-name{
       display: none;
     } */
+    margin-top: 2em;
+    position: relative;
   }
 `;
 
@@ -384,8 +386,10 @@ export const EducationStyle = styled.div`
   background-color: rgba(	129,	208,	147, 0.6);
   border-radius:50px;
   margin: 0 4em;
-  padding: 2em 2em;
+  padding: 6em 2em;
   height: 500px;
+  /* display: flex;
+  justify-content: center; */
 
   p{
     font-size: 22px;
