@@ -172,20 +172,20 @@ nav{
 /* education card */
 .card_container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .card{
   position: relative;
   width: 700px;
-  height: 500px;
+  height: 700px;
   color: #a18a96;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
   overflow: hidden;
-  margin: 2em;
+  margin:1em;
 }
 .card_content{
   position: absolute;
@@ -318,4 +318,10 @@ nav{
     margin: 1em 0;
     width: 300px;
   }  
+  .card_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height:700px ; */
+  }
 }

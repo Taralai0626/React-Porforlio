@@ -385,6 +385,7 @@ export const EducationStyle = styled.div`
   border-radius:50px;
   margin: 0 4em;
   padding: 2em 2em;
+  height: 500px;
 
   p{
     font-size: 22px;
@@ -395,6 +396,7 @@ export const EducationStyle = styled.div`
     margin: 1em 1em;
     font-size: 12px;
     padding: 6px auto;
+    height:100%;
   }
 
   p{
