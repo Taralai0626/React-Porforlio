@@ -44,7 +44,7 @@ export const FooterStyle = styled.footer`
     margin-top: 2em;
     position: relative;
   }
-  .footer{
+ /*  .footer{
     display: flex !important;
     flex-direction: column-reverse !important;
     margin-left: 0 !important;
@@ -59,7 +59,7 @@ export const FooterStyle = styled.footer`
   }
   .footer-icon{
     width: 45px;
-  }
+  } */
 `;
 
 export const FooterLinkStyle = styled.div`

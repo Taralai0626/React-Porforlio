@@ -250,22 +250,24 @@ nav{
     font-size: 36px;
   }
 
-  /* .footer{ */
-    /* display: flex !important; */
-    /* flex-direction: column-reverse !important; */
-    /* margin-left: 0 !important; */
-  /* } */
-  /* .footer-copy{ */
-    /* padding-left: 2em; */
-    /* color: rgb(212, 204, 204); */
-  /* } */
-/*  */
-  /* .footer-name{ */
-    /* display: none; */
-  /* } */
-  /* .footer-icon{ */
-    /* width: 45px; */
-  /* } */
+  .footer{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    margin-left: 0 !important;
+    margin-top: 2em;
+    position: relative;
+  }
+  .footer-copy{
+    padding-left: 2em;
+    color: rgb(212, 204, 204);
+  }
+
+  .footer-name{
+    display: none;
+  }
+  .footer-icon{
+    width: 45px;
+  }
   body{
   background-color: #1E1E1E;
   background-image: url(./components/img/watercolor-plant.png);
