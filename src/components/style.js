@@ -7,7 +7,7 @@ export const FooterStyle = styled.footer`
   @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Yanone+Kaffeesatz:wght@600&display=swap');
   display: inline-flex;
   justify-content: space-between;
-  align-items: center;
+  align-content: center;
   position: fixed;
   bottom: 0;
   width: 90%;
@@ -37,12 +37,9 @@ export const FooterLinkStyle = styled.div`
     list-style-type: none;
     justify-content: space-between;
   }
-
   a {
     text-decoration: none;
   }
-
-  
 `;
 
 /////////////// STYLE FOR NAVBAR /////////////////
@@ -63,8 +60,8 @@ export const NavHeaderStyle = styled.header`
   li {
     list-style: none;
     display: inline-block;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    font-size: 26px;
   }
 
   li:after{
@@ -270,8 +267,8 @@ export const SkillStyle = styled.div`
   display: flex;
   flex-direction: column;
   color: #0a9396;
-  
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bolder;
+  font-family: 'Bree Serif', serif;
   width: 100%;
   align-content: center;
   /* vertical-align: middle; */
@@ -293,12 +290,13 @@ export const SkillWrapStyle = styled.div`
   vertical-align: center;
 
 
-  h1{
+  p{
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
+  
   }
 
   @media (max-width: 960px) {
@@ -316,7 +314,9 @@ export const ProjectStyle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Irish+Grover&family=Monoton&family=Shadows+Into+Light&family=Yanone+Kaffeesatz:wght@600&display=swap');
 color: white;
 margin: auto 3em;
-padding: 2em 2em;
+padding: 1em 2em;
+/* height: 100%;
+overflow-y: scroll; */
 
 img{
   width: 100%;
@@ -341,6 +341,7 @@ img{
   width: 50%;
   font-size: 24px;
   font-family: 'Fjalla One', sans-serif;
+  margin-top: 2em;
 }
 
 .proButton{
@@ -383,10 +384,10 @@ export const EducationStyle = styled.div`
   color: white;
   font-family: 'Fjalla One', sans-serif;
   font-size: 20px;
-  background-color: rgba(	129,	208,	147, 0.6);
-  border-radius:50px;
-  margin: 0 4em;
-  padding: 6em 2em;
+  /* background-color: rgba(	129,	208,	147, 0.6); */
+  /* border-radius:50px; */
+  margin: 0 1em;
+  padding: 6em 1em;
   height: 500px;
   /* display: flex;
   justify-content: center; */

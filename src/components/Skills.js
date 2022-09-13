@@ -15,7 +15,7 @@ const Skills = () =>{
       <SkillWrapStyle className="skill-wrapper">
           {skillsData.map(skillsData=> (
           <div className="skill-container">       
-              <h1><img id="temp" alt="describ" width="100px"src={skillsData.image}/>{skillsData.title}</h1>
+              <p><img id="temp" alt="describ" width="100px"src={skillsData.image}/>{skillsData.title}</p>
           </div>
           ))}
       </SkillWrapStyle>

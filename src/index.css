@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1E1E1E;
-  background-image: url(./components/img/background.jpg);
+  background-image: url(./components/img/background3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -33,13 +33,13 @@ footer{
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 90%;
   margin-left: 4em;
   color: white;
   font-size: 20px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Bree Serif', serif;
   margin-top: auto;
 }
 
@@ -65,9 +65,11 @@ header a:hover, footer a:hover {
 }
 
 .project-container {
-  background-color: rgba(	129,	208,	147, 0.7);
-  margin: 0 4em;
-  border-radius:50px;
+  /* background-color: rgba(	129,	208,	147, 0.7); */
+  margin: 0 5em 2em 5em;
+  /* border-radius:50px; */
+  height: 550px;
+  overflow: scroll;
 }
 
 nav{
@@ -130,11 +132,13 @@ nav{
   flex: 25%;
   max-width: 10%;
   padding: 0 10px;
+  /* margin: 0 2em; */
 }
 
 .column img {
   margin-top: 20px;
   width:100%;
+  height: 500px;
 }
 
 .row {
@@ -142,8 +146,10 @@ nav{
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 4em;
+ 
 }
+
 
 
 /****** art works image titles ******/
@@ -249,16 +255,18 @@ nav{
     display: flex !important;
     flex-direction: column-reverse !important;
     margin-left: 0 !important;
-    
   }
   .footer-copy{
     padding-left: 2em;
+    color: rgb(212, 204, 204);
   }
 
   .footer-name{
     display: none;
   }
-
+  .footer-icon{
+    width: 45px;
+  }
   body{
   background-color: #1E1E1E;
   background-image: url(./components/img/watercolor-plant.png);
@@ -294,7 +302,17 @@ nav{
     color: white;
   }
   .project-container{
-    margin: 0 1em;
+   /*  margin: 0 1em; */
+    margin: 1em;
+    border-radius:50px;
+    background-color: rgba(	129,	208,	147, 0.7);
+    height: 100%;
+  }
+  .content-wrapper{
+    margin-top: 0 !important; 
+  }
+  .proButton{
+    margin-bottom: 1em !important;
   }
 
   .column {
@@ -305,6 +323,7 @@ nav{
   .row{
     --bs-gutter-x: 0 !important;  
     width: 90%;
+    padding: 0;
   }
   .art-container{
     display: flex;
@@ -316,7 +335,7 @@ nav{
     max-inline-size: -webkit-fill-available;
     max-width: -moz-available;
     margin: 1em 0;
-    width: 300px;
+    
   }  
   .card_container{
     display: flex;
@@ -324,4 +343,9 @@ nav{
     justify-content: center;
     /* height:700px ; */
   }
+  .card-wrapper{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;;
+  }
+
 }

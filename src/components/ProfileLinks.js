@@ -18,7 +18,7 @@ return (
             <ul>
                 <li>
                     <a href={linkData.url}>
-                        <img id="temp" alt="portrait of Tara Lai" width="50px"src={linkData.image}/>
+                        <img id="temp" className="footer-icon" alt="portrait of Tara Lai" width="50px"src={linkData.image}/>
                         <span className="footer-name">{linkData.name}</span>
                     </a>
                 </li>
