@@ -29,37 +29,37 @@ code {
     monospace;
 }
 
-/* footer{ */
-  /* display: inline-flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* position: fixed; */
-  /* bottom: 0; */
-  /* width: 90%; */
-  /* margin-left: 4em; */
-  /* color: white; */
-  /* font-size: 20px; */
-  /* font-family: 'Bree Serif', serif; */
-  /* font-weight: bolder; */
-  /* margin-top: auto; */
-/* } */
+footer{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  margin-left: 4em;
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  font-weight: bolder;
+  margin-top: auto;
+}
 
-/* .footerList{ */
-  /* display: flex; */
-  /* flex-direction: row; */
-/* } */
+.footerList{
+  display: flex;
+  flex-direction: row;
+}
 
-/* footer li{ */
-  /* list-style-type: none; */
-/* } */
-/* footer img{ */
-  /* vertical-align: middle; */
-/* } */
+footer li{
+  list-style-type: none;
+}
+footer img{
+  vertical-align: middle;
+}
 
-/* footer a { */
-  /* color: white; */
-  /* text-decoration: none; */
-/* } */
+footer a {
+  color: white;
+  text-decoration: none;
+}
 
 header a:hover, footer a:hover {
   color: rgb(	129,	208,	147);
