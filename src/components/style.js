@@ -7,22 +7,58 @@ export const FooterStyle = styled.footer`
   @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Yanone+Kaffeesatz:wght@600&display=swap');
   display: inline-flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   position: fixed;
   bottom: 0;
   width: 90%;
   margin-left: 4em;
   color: white;
-  font-size: 22px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  font-weight: bolder;
   margin-top: auto;
+
+  img{
+    vertical-align: middle;
+  }
+  li{
+    list-style-type: none;
+  }
+
+  .footerList{
+    display: flex;
+    flex-direction: row;
+}
+  a {
+  color: white;
+  text-decoration: none;
+}
 
   @media (max-width: 960px) {
     /* .footer-name{
       display: none;
     } */
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    margin-left: 0 !important;
     margin-top: 2em;
     position: relative;
+  }
+  .footer{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    margin-left: 0 !important;
+  }
+  .footer-copy{
+    padding-left: 2em;
+    color: rgb(212, 204, 204);
+  }
+
+  .footer-name{
+    display: none;
+  }
+  .footer-icon{
+    width: 45px;
   }
 `;
 

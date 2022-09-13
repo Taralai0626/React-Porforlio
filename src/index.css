@@ -29,36 +29,37 @@ code {
     monospace;
 }
 
-footer{
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  width: 90%;
-  margin-left: 4em;
-  color: white;
-  font-size: 20px;
-  font-family: 'Bree Serif', serif;
-  margin-top: auto;
-}
+/* footer{ */
+  /* display: inline-flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* width: 90%; */
+  /* margin-left: 4em; */
+  /* color: white; */
+  /* font-size: 20px; */
+  /* font-family: 'Bree Serif', serif; */
+  /* font-weight: bolder; */
+  /* margin-top: auto; */
+/* } */
 
-.footerList{
-  display: flex;
-  flex-direction: row;
-}
+/* .footerList{ */
+  /* display: flex; */
+  /* flex-direction: row; */
+/* } */
 
-footer li{
-  list-style-type: none;
-}
-footer img{
-  vertical-align: middle;
-}
+/* footer li{ */
+  /* list-style-type: none; */
+/* } */
+/* footer img{ */
+  /* vertical-align: middle; */
+/* } */
 
-footer a {
-  color: white;
-  text-decoration: none;
-}
+/* footer a { */
+  /* color: white; */
+  /* text-decoration: none; */
+/* } */
 
 header a:hover, footer a:hover {
   color: rgb(	129,	208,	147);
@@ -149,8 +150,6 @@ nav{
   padding: 0 4em;
  
 }
-
-
 
 /****** art works image titles ******/
 .img-title{
@@ -251,22 +250,22 @@ nav{
     font-size: 36px;
   }
 
-  .footer{
-    display: flex !important;
-    flex-direction: column-reverse !important;
-    margin-left: 0 !important;
-  }
-  .footer-copy{
-    padding-left: 2em;
-    color: rgb(212, 204, 204);
-  }
-
-  .footer-name{
-    display: none;
-  }
-  .footer-icon{
-    width: 45px;
-  }
+  /* .footer{ */
+    /* display: flex !important; */
+    /* flex-direction: column-reverse !important; */
+    /* margin-left: 0 !important; */
+  /* } */
+  /* .footer-copy{ */
+    /* padding-left: 2em; */
+    /* color: rgb(212, 204, 204); */
+  /* } */
+/*  */
+  /* .footer-name{ */
+    /* display: none; */
+  /* } */
+  /* .footer-icon{ */
+    /* width: 45px; */
+  /* } */
   body{
   background-color: #1E1E1E;
   background-image: url(./components/img/watercolor-plant.png);
@@ -315,10 +314,14 @@ nav{
     margin-bottom: 1em !important;
   }
 
+  /* art works */
   .column {
     -ms-flex: 100%;
     flex: 100%;
     width: 100%;
+  }
+  .column img {
+    height: 100%;
   }
   .row{
     --bs-gutter-x: 0 !important;  
@@ -331,6 +334,8 @@ nav{
     justify-content: center;
     align-items: center;
   }
+
+  /* education */
   .card{
     max-inline-size: -webkit-fill-available;
     max-width: -moz-available;
