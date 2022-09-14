@@ -22,7 +22,8 @@ const Abouts = () =>{
                 </div>
                 <div className="title-container">
                     <p className="title">
-                        Hi! My name is Tara! <br />
+                        Hello! <br />
+                        My name is Tara! <br />
                         I am a 
                         <div className="rotate-words">
                             <span className="title-card1">Web developer.</span>

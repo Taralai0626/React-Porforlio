@@ -208,12 +208,12 @@ export const HomeStyle = styled.div`
   text-align: center;
 
   p{
-    font-size: 52px;
+    font-size: 70px;
     color: white;
     width: 100%; /* no need */
     /* padding-right: 1em; */
     padding: 0;
-    margin: 0;
+    margin: 1em 0;
     font-family: 'Bree Serif', serif;
   }
 
@@ -287,7 +287,7 @@ export const SkillStyle = styled.div`
   .skill-page{
     color: #FFF;
     display: flex;
-    width: 85%;
+    width: 90%;
     justify-content: end;
     align-items: center;
     gap: 0.5em;
