@@ -8,6 +8,7 @@ function Skill() {
   return(
     <main id="main">
       <SkillStyle>
+        <h1 className="skill-page"><span className="skill-deco"></span> Skills</h1>
         <Skills/>
       </SkillStyle>
     </main>

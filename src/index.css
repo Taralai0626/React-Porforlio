@@ -67,9 +67,9 @@ header a:hover, footer a:hover {
 
 .project-container {
   /* background-color: rgba(	129,	208,	147, 0.7); */
-  margin: 0 5em 2em 5em;
+  margin: 0 5em 3em 5em;
   /* border-radius:50px; */
-  height: 550px;
+  height: 480px;
   overflow: scroll;
 }
 
@@ -174,7 +174,42 @@ nav{
   opacity: 0.8;
 }
 
+/* .pro-page{ */
+  /* color: #FFF; */
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
+  /* gap: 0.5em; */
+  /* width: 90%; */
+/* } */
+/* .pro-deco { */
+  /* content: ''; */
+  /* min-width: 10%; */
+  /* height: 8px; */
+  /* display: inline-block; */
+  /* background: #005f73; */
+  /* vertical-align: middle; */
+/* } */
+
 /* education card */
+.edu-page {
+  color: #FFF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5em;
+  width: 90%;
+  /* margin-top: 0.5em; */
+}
+
+.edu-deco {
+  content: '';
+  min-width: 10%;
+  height: 8px;
+  display: inline-block;
+  background: #005f73;
+  vertical-align: middle;
+}
 .card_container{
   display: flex;
   flex-direction: row;
@@ -338,6 +373,18 @@ nav{
   }
 
   /* education */
+  .edu-page{
+    margin-top: 1em;
+    color:#005f73;
+    font-weight: bolder;
+    gap: 10px;
+    width: 90%;
+  }
+  .edu-deco{
+    background: #ffdd40;
+    min-width: 15%;
+    height: 6px;
+  }
   .card{
     max-inline-size: -webkit-fill-available;
     max-width: -moz-available;

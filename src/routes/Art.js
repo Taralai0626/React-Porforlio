@@ -7,6 +7,7 @@ import Artworks from "../components/Artworks"
 function Artwork() {
   return(
     <main id="main">
+      <h1 className="edu-page"><span className="edu-deco"></span>Arts</h1>
       <div className="art-container">
         <Artworks/>
       </div>

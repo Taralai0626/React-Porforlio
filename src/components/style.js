@@ -16,7 +16,7 @@ export const FooterStyle = styled.footer`
   font-size: 20px;
   font-family: 'Bree Serif', serif;
   font-weight: bolder;
-  margin-top: auto;
+  /* margin-top: 3em; */
 
   img{
     vertical-align: middle;
@@ -187,33 +187,6 @@ export const NavHeaderStyle = styled.header`
       color: #ffdd40
     }
   }
-/*  #check,label #btn,
-label #cancel {
-  color: #05E5EA;
-  font-size: 30px;
-  float: right;
-  top:5px;
-  left: 80vw;
-  cursor: pointer;
-  display: block;
-  position:absolute;
-}
-@media screen and (max-width:810px){
-  label #btn {
-    display: block;
-  }
-  #check:checked ~ .menu {
-    left: 0;
-  }
-
-  #check:checked ~ label #btn {
-    display: none;
-  }
-
-  #check:checked ~ label #cancel {
-    display: block;
-  } 
-}*/
 `;
 
 export const NavList = styled.li`
@@ -248,7 +221,6 @@ export const HomeStyle = styled.div`
     /* margin-top: 0; */
     width: 100%;
     /* height:500px */
-  
   }
 
   .portraitWrapper{
@@ -261,7 +233,6 @@ export const HomeStyle = styled.div`
   }
 
   @media (max-width: 960px) {
-    
     p{
     font-size: 28px;
     font-weight: bolder;
@@ -302,23 +273,57 @@ export const SkillStyle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Yanone+Kaffeesatz:wght@600&display=swap');
   display: flex;
   flex-direction: column;
-  color: #0a9396;
+  color: #FFF;
   font-weight: bolder;
   font-family: 'Bree Serif', serif;
   width: 100%;
   align-content: center;
   /* vertical-align: middle; */
+ /*  .skillPage-wrapper{
+    display: flex;
+    justify-content: end;
+    width: 90%;
+  } */
+  .skill-page{
+    color: #FFF;
+    display: flex;
+    width: 85%;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5em;
+  }
+  .skill-deco{
+    content: '';
+    min-width: 10%;
+    height: 8px;
+    display: inline-block;
+    background: #005f73;
+    vertical-align: middle;
+  }
   @media (max-width: 960px) {
     .skill-container img{
+      height: 50px;
       width: 50px;
       margin: 0;
+    }
+    .skill-page{
+      margin-top: 1em;
+      color:#005f73;
+      font-weight: bolder;
+      gap: 10px;
+      width: 90%;
+    }
+    .skill-deco{
+      background: #ffdd40;
+      min-width: 15%;
+      height: 6px;
     }
   }
 `
 
 export const SkillWrapStyle = styled.div`
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   gap: 2em;
   justify-content: center;
   align-items : center;
@@ -342,6 +347,7 @@ export const SkillWrapStyle = styled.div`
     gap:8px;
     margin: 2em 0;
     padding-bottom: 5em;
+    color: #005f73;
   }
 `
 
@@ -350,14 +356,17 @@ export const ProjectStyle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Irish+Grover&family=Monoton&family=Shadows+Into+Light&family=Yanone+Kaffeesatz:wght@600&display=swap');
 color: white;
 margin: auto 3em;
-padding: 1em 2em;
+padding: 1em 1em;
 /* height: 100%;
 overflow-y: scroll; */
-
+h1{
+  font-size: 32px;
+  font-weight: bolder;
+}
 img{
   width: 100%;
   border-radius: 20px;
-  margin-top: 1.5em;
+  /* margin-top: 1em; */
 }
 
 .img-wrapper{
@@ -377,7 +386,7 @@ img{
   width: 50%;
   font-size: 24px;
   font-family: 'Fjalla One', sans-serif;
-  margin-top: 2em;
+  /* margin-top: 2em; */
 }
 
 .proButton{
@@ -423,7 +432,7 @@ export const EducationStyle = styled.div`
   /* background-color: rgba(	129,	208,	147, 0.6); */
   /* border-radius:50px; */
   margin: 0 1em;
-  padding: 6em 1em;
+  padding: 2em 1em;
   height: 500px;
   /* display: flex;
   justify-content: center; */

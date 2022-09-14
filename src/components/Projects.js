@@ -34,6 +34,8 @@ const Projects = () =>{
         })
     }) */
     return (
+      <>
+        <h1 className="edu-page"><span className="edu-deco"></span>Projects</h1>
         <div className="project-container">
             {proData.map(proData=> (
             <ProjectStyle>
@@ -50,6 +52,7 @@ const Projects = () =>{
             </ProjectStyle>
             ))}
         </div>
+      </>  
     )
 }
 export default Projects;
