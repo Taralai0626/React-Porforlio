@@ -86,7 +86,7 @@ nav{
 
 .rotate-words{
   display: inline;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 .title-card1{
   --d: 0s;
@@ -318,8 +318,9 @@ nav{
     background-image: url(./components/img/IMG_3057.jpg);
     background-size:contain;
     background-repeat: no-repeat;
-    width: 30%;/*width of your image*/
-    height:300px;
+    background-position: center;
+    min-width: 100%;/*width of your image*/
+    height:600px;
     margin-top: 2em;
   }
 
@@ -328,9 +329,10 @@ nav{
     flex-direction: column !important;
    /*  height: 200px !important; */
     width: 100% !important;
-    margin: 0!important;
-    justify-content: center !important;
-    align-items: center !important;
+    padding: 0 2em !important;
+
+    /* justify-content: center !important; */
+    /* align-items: center !important; */
   }
 
 

@@ -234,12 +234,12 @@ export const HomeStyle = styled.div`
 
   @media (max-width: 960px) {
     p{
-    font-size: 28px;
+    font-size: max(22px, min(8vw, 50px)); 
     font-weight: bolder;
     color: #618E69;
-    width: 40%;
+    width: 100%;
     padding: 0em;
-    margin-bottom: 2em;
+    margin: 0;
     font-family: 'Bree Serif', serif;
   }
     .portraitWrapper img{
@@ -251,19 +251,23 @@ export const HomeStyle = styled.div`
       display: flex;
     }
     .title-container{
-      width: 100%;
-      place-content: center;
-      display: flex;
-      margin-left: 0;
+      width:100%;
+      margin: 2em 0;
+      padding: 0;
     }
 
   }
   @media (max-width: 380px){
     .portrait2{
       width: 60%;
+      height: 300px;
+    }
+    .title-container{
+      min-width: 80%;
+      padding: 0 2em;
     }
     p{
-      width: 75%;
+      font-size: 22px;
     }
   }
 `

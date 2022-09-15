@@ -13,7 +13,7 @@ const Abouts = () =>{
         })
     }) */
     return (
-        <div>
+        <>
             {aboutData.map(aboutData=> (
             <HomeStyle className="home-style">
                 <div className="portraitWrapper">
@@ -35,7 +35,7 @@ const Abouts = () =>{
                 </div>
             </HomeStyle>
             ))}
-        </div>
+        </>
     )
 }
 export default Abouts;
