@@ -207,14 +207,27 @@ export const HomeStyle = styled.div`
   width: 100%;
   text-align: center;
 
-  p{
-    font-size: 70px;
+  h1{
+    font-size: 60px;
     color: white;
     width: 100%; /* no need */
     /* padding-right: 1em; */
     padding: 0;
-    margin: 1em 0;
+    margin-bottom: 0.5em;
     font-family: 'Bree Serif', serif;
+  }
+  h2{
+    font-size: 24px;
+    color: white;
+    text-align:start;
+    font-weight: bolder;
+  }
+  p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    text-align: start;
+    font-weight: bolder;
   }
 
   img{
@@ -233,14 +246,29 @@ export const HomeStyle = styled.div`
   }
 
   @media (max-width: 960px) {
-    p{
+    h1{
     font-size: max(22px, min(8vw, 50px)); 
     font-weight: bolder;
-    color: #618E69;
+    color: #005f73;
     width: 100%;
     padding: 0em;
     margin: 0;
     font-family: 'Bree Serif', serif;
+  }
+  h2{
+    font-size: 18px;
+    color: #005f73;
+    text-align:start;
+    font-weight: bolder;
+    margin-top: 2em;
+  }
+
+  p{
+    /* margin-top: 2em; */
+    color: #005f73;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: justify;
   }
     .portraitWrapper img{
       display: none;
@@ -266,7 +294,7 @@ export const HomeStyle = styled.div`
       min-width: 80%;
       padding: 0 2em;
     }
-    p{
+    h1{
       font-size: 22px;
     }
   }

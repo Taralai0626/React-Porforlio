@@ -21,7 +21,7 @@ const Abouts = () =>{
                     <div className="portrait2"></div>
                 </div>
                 <div className="title-container">
-                    <p className="title">
+                    <h1 className="title">
                         Hello! <br />
                         My name is Tara! <br />
                         I am a 
@@ -30,8 +30,9 @@ const Abouts = () =>{
                             <span className="title-card2">team player.</span>
                             <span className="title-card3">concert enthusiast.</span>
                         </div>
-                    </p>
-                    {/* <p>{aboutData.content}</p> */}
+                    </h1>
+                    <h2><span className="about-deco"></span> A bit about me</h2>
+                    <p>{aboutData.content}</p>
                 </div>
             </HomeStyle>
             ))}
