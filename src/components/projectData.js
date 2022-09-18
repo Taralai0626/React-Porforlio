@@ -5,7 +5,7 @@ export const proData = [
     "url": "https://github.com/Taralai0626/Passion-Project---My-Passion-Tickets",
     "slug": "Passion",
     "image": require("./img/passionproject.png"),
-    "content": "Tickets Database Management is an app that users who love concerts and sports. This was built with CRUD function on event and user information, listing who owns the ticket. Also, implemented user authentication, and photo uploading. This was using C# with the ASP.NET MVC framework connected with MySQL",
+    "content": "Tickets Database Management is an app for users who love to go to concerts and other events. This was built with CRUD function on event and user information, listing who owns the ticket. Also, implemented user authentication, and photo uploading. This was using C# with the ASP.NET MVC framework connected with MySQL",
     "type": "Website",
   },
   {
