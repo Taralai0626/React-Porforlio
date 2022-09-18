@@ -95,23 +95,36 @@ export const NavHeaderStyle = styled.header`
 
   li {
     list-style: none;
+    position: relative;
     display: inline-block;
     font-family: 'Bree Serif', serif;
     font-size: 26px;
   }
-
-  li:after{
+  li::before,
+  li::after{
     content: "";
     display: block;
-    height: 3px;
-    width: 0;
+    /* position: absolute; */
+   /*  left: 0; */
+    height: 1.5px;
+    width: 100%;
     background: transparent;
-    transition: width 0.5s ease, background-color 0.7s ease;
+    transform: scaleX(0);
+    transition: transform .25s;/* width 0.5s ease, background-color 0.7s ease; */
   }
-
-  li:hover:after{
+  li:hover::before,
+  li:hover::after{
+    transform: scaleX(1);
     width:100%;
     background: #ffdd40;
+  }
+  li::before{
+    /* top: -3px; */
+    transform-origin: left;
+  }
+  li::after{
+    /* bottom: -3px; */
+    transform-origin: right;
   }
 
   li .active{
