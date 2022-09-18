@@ -23,7 +23,7 @@ export const proData = [
     "url": "https://github.com/Taralai0626/Animation-website.git",
     "slug": "LaravelPortfolio",
     "image": require("./img/laravelCMS.png"),
-    "content": "This project was built with a PHP CMS using Laravel to manage my personal portfolio and deployed it through Heroku. As well, implemented AWS S3 bucket to store images in order to display images. ",
+    "content": "This project was built with a PHP CMS using Laravel to manage my personal portfolio and deployed it through Heroku. As well, implemented AWS S3 bucket to store images in order to display them on Heroku. ",
     "type": "Website",
   }
   ]
