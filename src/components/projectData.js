@@ -1,5 +1,14 @@
 export const proData = [
   {
+    "id": 4,
+    "title": "Capstone Project – Eventhub",
+    "url": "https://github.com/Taralai0626/Eventhub",
+    "slug": "Eventhub",
+    "image": require("./img/searchEvents.png"),
+    "content": "Eventhub is an app for users who want to search events near by. This was built using Asp.Net Core with CRUD function for users to add favourite events. Implemented a map using Google Map API with place autocomplete, current location, and search locations features for users to search current events nearby on the map. As well, used Ticketmaster and PredictHQ event API to fetch events information.",
+    "type": "Website",
+  },
+  {
     "id": 3,
     "title": "Tickets Database Management",
     "url": "https://github.com/Taralai0626/Passion-Project---My-Passion-Tickets",
