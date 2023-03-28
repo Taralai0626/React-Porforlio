@@ -382,6 +382,7 @@ nav{
     --bs-gutter-x: 0 !important;  
     width: 90%;
     padding: 0;
+    
   }
   .art-container{
     display: flex;
