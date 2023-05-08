@@ -15,31 +15,33 @@ const Artworks = () =>{
  
     return (
         <>
-            {artsData.map(artsData=> (
-                <div className="row"> 
-                    <div className="column">  
-                        <div className="artImg-wrapper">
-                            <img id="temp" alt="describ" width="10%" src={artsData.image}/>
-                            <h1 className="img-title">{artsData.type}</h1>
-                            {/* <a className="btn btn-success proButton" href={artData.url} role="button">View Code</a> */}
+            <div className="art-container">
+                {artsData.map(artsData=> (
+                    <div className="row"> 
+                        <div className="column">  
+                            <div className="artImg-wrapper">
+                                <img id="temp" alt="describ" width="10%" src={artsData.image}/>
+                                <h1 className="img-title">{artsData.type}</h1>
+                                {/* <a className="btn btn-success proButton" href={artData.url} role="button">View Code</a> */}
+                            </div>
+                        </div> 
+                        <div className="column">  
+                            <div className="artImg-wrapper">
+                                <img id="temp" alt="describ" width="10%" src={artsData.second.image}/>
+                                <h1 className="img-title">{artsData.second.type}</h1>
+                                {/* <a className="btn btn-success proButton" href={artData.url} role="button">View Code</a> */}
+                            </div>
                         </div>
-                    </div> 
-                    <div className="column">  
-                        <div className="artImg-wrapper">
-                            <img id="temp" alt="describ" width="10%" src={artsData.second.image}/>
-                            <h1 className="img-title">{artsData.second.type}</h1>
-                            {/* <a className="btn btn-success proButton" href={artData.url} role="button">View Code</a> */}
-                        </div>
+                        <div className="column">  
+                            <div className="artImg-wrapper">
+                                <img id="temp" alt="describ" width="10%" src={artsData.third.image}/>
+                                <h1 className="img-title">{artsData.third.type}</h1>
+                                {/* <a className="btn btn-success proButton" href={artData.url} role="button">View Code</a> */}
+                            </div>
+                        </div>          
                     </div>
-                    <div className="column">  
-                        <div className="artImg-wrapper">
-                            <img id="temp" alt="describ" width="10%" src={artsData.third.image}/>
-                            <h1 className="img-title">{artsData.third.type}</h1>
-                            {/* <a className="btn btn-success proButton" href={artData.url} role="button">View Code</a> */}
-                        </div>
-                    </div>          
-                </div>
-            ))}
+                ))}
+            </div>
         </>
     )
 }

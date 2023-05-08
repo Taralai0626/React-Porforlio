@@ -65,7 +65,15 @@ header a:hover, footer a:hover {
   color: rgb(	129,	208,	147);
 }
 
-.project-container {
+.art-container  {
+  /* background-color: rgba(	129,	208,	147, 0.7); */
+  margin: 0 2em 3em 2em;
+  /* border-radius:50px; */
+  height: 67vh;
+  overflow: scroll;
+}
+
+.project-container{
   /* background-color: rgba(	129,	208,	147, 0.7); */
   margin: 0 5em 3em 5em;
   /* border-radius:50px; */
@@ -73,12 +81,12 @@ header a:hover, footer a:hover {
   overflow: scroll;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
-.project-container::-webkit-scrollbar {
+.project-container::-webkit-scrollbar, .art-container::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.project-container {
+.project-container, .art-container {
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
 }
@@ -142,6 +150,7 @@ nav{
   flex: 25%;
   max-width: 10%;
   padding: 0 10px;
+
   /* margin: 0 2em; */
 }
 
@@ -157,6 +166,8 @@ nav{
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4em;
+  /* justify-content: center; */
+  /* align-items: center; */
  
 }
 
@@ -171,18 +182,21 @@ nav{
   transform: translate(-50%, -50%);
   transition:all 1s linear; 
   color: white;
+  /* opacity: 0; */
 }
 .artImg-wrapper{
   position: relative;
   margin-top: 0;
 }
 .artImg-wrapper img{
-  transition:all 1s linear; 
+  transition:all s linear; 
 }
 .artImg-wrapper img:hover{
   opacity: 0.8;
 }
-
+/* .img-title:hover{ */
+  /* opacity: 1; */
+/* } */
 /* .pro-page{ */
   /* color: #FFF; */
   /* display: flex; */
