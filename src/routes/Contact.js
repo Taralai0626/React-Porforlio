@@ -8,7 +8,7 @@ function Contact() {
   return(
     <main id="main">
       <SkillStyle>
-        <h1 className="skill-page"><span className="skill-deco"></span> Contact Me</h1>
+        <h1 className="skill-page"><span className="skill-deco"></span>Contact Me</h1>
         <ContactForm/>
       </SkillStyle>
     </main>
