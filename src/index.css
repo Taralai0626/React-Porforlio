@@ -38,7 +38,7 @@ footer{
   width: 90%;
   margin-left: 4em;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Bree Serif', serif;
   font-weight: bolder;
   margin-top: auto;
@@ -47,6 +47,10 @@ footer{
 .footerList{
   display: flex;
   flex-direction: row;
+}
+
+.footer-icon{
+  width: 35px;
 }
 
 footer li{
@@ -302,6 +306,27 @@ nav{
   transition-delay: .25s;
 }
 
+.contactForm {
+  text-align: start;
+  width: 500px;
+  margin: 20px auto;
+}
+
+Form {
+  margin-top: 50px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.field>label {
+  color: white !important;
+}
+
+.ui.green.button {
+  background: #005f73;
+}
+
 @media (max-width: 960px) {
   #header{
     /* background-color: rgba(	129,	208,	147, 0.8) !important; */
@@ -331,7 +356,7 @@ nav{
     display: none;
   }
   .footer-icon{
-    width: 45px;
+    width: 35px;
   }
   body{
   background-color: #1E1E1E;
@@ -430,6 +455,18 @@ nav{
   .card-wrapper{
     padding-top: 1em !important;
     padding-bottom: 1em !important;;
+  }
+
+  .contactForm {
+    /* text-align: start; */
+    /* width: 500px !important; */
+    /* margin: 20px auto; */
+    color: #005f73;
+    width: 300px;
+  }
+
+  .field>label {
+    color: #005f73 !important;
   }
 
 }

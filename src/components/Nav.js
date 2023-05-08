@@ -28,7 +28,10 @@ function Nav() {
         </NavList> 
         <NavList>
           <NavLink to="/art" activeClassName="active" className="nav-links2" onClick={handleClick}>Arts</NavLink>
-        </NavList> 
+        </NavList>
+        <NavList>
+          <NavLink to="/contact" activeClassName="active" className="nav-links2" onClick={handleClick}>Contact Me</NavLink>
+        </NavList>  
       </ul>
       <div className="nav-icon" onClick={handleClick}>
         <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
