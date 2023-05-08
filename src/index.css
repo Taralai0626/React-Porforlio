@@ -426,7 +426,7 @@ Form {
 
   /* education */
   .edu-page {
-    margin-top: 1em;
+    margin-top: 1em !important;
     color:#005f73;
     font-weight: bolder;
     gap: 10px;
@@ -458,9 +458,6 @@ Form {
   }
 
   .contactForm {
-    /* text-align: start; */
-    /* width: 500px !important; */
-    /* margin: 20px auto; */
     color: #005f73;
     width: 300px;
   }
