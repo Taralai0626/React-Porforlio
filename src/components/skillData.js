@@ -22,6 +22,13 @@ export const skillsData = [
     
   },
   {
+    "id": 17,
+    "title": "Python",
+    "url": "https://laravel.com/",
+    "image": require("./img/python.gif"),
+    "percent": 10,
+  },
+  {
     "id": 8,
     "title": "Node.js",
     "url": "https://nodejs.org/en/",
@@ -83,6 +90,41 @@ export const skillsData = [
     "title": "Figma",
     "url": "https://laravel.com/",
     "image": require("./img/figma.png"),
+    "percent": 10,
+  },
+  {
+    "id": 13,
+    "title": "Wordpress",
+    "url": "https://laravel.com/",
+    "image": require("./img/iwordpress.gif"),
+    "percent": 10,
+  },
+  {
+    "id": 14,
+    "title": "Webflow",
+    "url": "https://laravel.com/",
+    "image": require("./img/webflow.png"),
+    "percent": 10,
+  },
+  {
+    "id": 15,
+    "title": "Bootstrap",
+    "url": "https://laravel.com/",
+    "image": require("./img/bootstrap.png"),
+    "percent": 10,
+  },
+  {
+    "id": 16,
+    "title": "Tailwind",
+    "url": "https://laravel.com/",
+    "image": require("./img/tailwindcss.png"),
+    "percent": 10,
+  },
+  {
+    "id": 18,
+    "title": "AWS",
+    "url": "https://laravel.com/",
+    "image": require("./img/AWS.png"),
     "percent": 10,
   }
   ]
