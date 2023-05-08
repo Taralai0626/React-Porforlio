@@ -116,7 +116,7 @@ export const NavHeaderStyle = styled.header`
   li:hover::after{
     transform: scaleX(1);
     width:100%;
-    background: #ffdd40;
+    background: #005f73;
   }
   li::before{
     /* top: -3px; */
