@@ -419,7 +419,7 @@ Form {
   }
   .row{
     --bs-gutter-x: 0 !important;  
-    width: 90%;
+    /* width: 90%; */
     padding: 0;
     
   }
@@ -467,6 +467,10 @@ Form {
 
   .field>label {
     color: #005f73 !important;
+  }
+
+  Form {
+    margin-top: 25px;
   }
 
 }
