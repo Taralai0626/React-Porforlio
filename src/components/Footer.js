@@ -6,7 +6,7 @@ import { FaCopyright} from 'react-icons/fa';
 function Footer() {
   return(
     <FooterStyle className="footer">
-      <div className="footer-copy"><FaCopyright/> 2022 Tara Lai.</div>
+      <div className="footer-copy"><FaCopyright/> 2023 Tara Lai.</div>
       <ProfileLinks/>
     </FooterStyle>  
   )
